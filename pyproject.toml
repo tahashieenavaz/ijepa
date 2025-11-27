@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ijepa"
-version = "0.0.13"
+version = "0.0.14"
 authors = [
   { name="Taha Shieenavaz", email="tahashieenavaz@gmail.com" },
 ]
@@ -20,7 +20,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = ["numpy"]
-keywords = ["reinforcement learning", "sum tree", "min tree", "data structure"]
+keywords = ["jepa", "embedding", "joint", "predictive architecture", "image encoder"]
 license = { file = "LICENSE" }
 urls = { Homepage="https://github.com/tahashieenavaz/ijepa", Repository="https://github.com/tahashieenavaz/ijepa", Documentation="https://github.com/tahashieenavaz/ijepa#readme" }
 
