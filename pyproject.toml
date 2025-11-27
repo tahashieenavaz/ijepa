@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ijepa"
+version = "0.0.13"
+authors = [
+  { name="Taha Shieenavaz", email="tahashieenavaz@gmail.com" },
+]
+description = "An easy implementation of Image Joint Embedding Predictive Architecture."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = ["numpy"]
+keywords = ["reinforcement learning", "sum tree", "min tree", "data structure"]
+license = { file = "LICENSE" }
+urls = { Homepage="https://github.com/tahashieenavaz/ijepa", Repository="https://github.com/tahashieenavaz/ijepa", Documentation="https://github.com/tahashieenavaz/ijepa#readme" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*", "docs*"]
+
+[tool.setuptools.package-data]
+ijepa = ["*.md", "*.txt"]
